@@ -1,16 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mseara <mseara@student.42.fr>              +#+  +:+       +#+        */
+/*   By: mseara <mseara@student.42barcelon>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/07 15:22:12 by mseara            #+#    #+#             */
-/*   Updated: 2022/11/21 15:11:42 by mseara           ###   ########.fr       */
+/*   Created: 2022/11/25 13:23:13 by mseara            #+#    #+#             */
+/*   Updated: 2022/11/25 13:23:34 by mseara           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+
+#include "get_next_line_bonus.h"
 
 static int	ft_locate_new_line(char *auxstr)
 {
