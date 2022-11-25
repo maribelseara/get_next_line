@@ -24,10 +24,7 @@ size_t	ft_strlen(const char *s)
 
 char	*ft_free_static(char **auxstr)
 {
-	if (*auxstr)
-	{
-		free(*auxstr);
-	}
+	free(*auxstr);
 	*auxstr = NULL;
 	return (NULL);
 }
@@ -54,9 +51,7 @@ char	*ft_substr(char *s, unsigned int start, size_t len)
 		return (NULL);
 	i = 0;
 	while (i < len && s[start] != '\0')
-	{
-			sub[i++] = s[start++];
-	}
+		sub[i++] = s[start++];
 	sub[i] = '\0';
 	return (sub);
 }

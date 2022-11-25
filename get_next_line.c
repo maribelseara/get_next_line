@@ -70,6 +70,8 @@ static char	*ft_make_line(char *auxstr)
 	if (!auxstr || auxstr == NULL || auxstr[0] == '\0')
 		return (NULL);
 	len = ft_locate_new_line(auxstr);
+	if (len == -1)
+		len = ft_strlen(auxstr);
 	line = ft_substr(auxstr, 0, len);
 	return (line);
 }
